@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneRecognitionConfig>
+  <AlgoControl>
+    <algoEnable name="algoEnable" value="1"></algoEnable>
+    <videoEnable name="videoEnable" value="0"></videoEnable>
+    <frontEnable name="frontEnable" value="1"></frontEnable>
+    <version name="version" value="1"></version>
+    <stableFrame name="stableFrame" value="30"></stableFrame>
+    <unstableFrame name="unstableFrame" value="30"></unstableFrame>
+  </AlgoControl>
+  <FilterRule1.0_front>
+    <Scene name="BLUESKY" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="GREENPLANT" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="FLOWER" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="BEACH" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="STAGE" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="NIGHT" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="ROOM" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="SNOW" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="OTHER" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+  </FilterRule1.0_front>
+  <FilterRule1.0>
+    <Scene name="STAGE" inConfThd="950" outConfThd="700" inLVThd="80" outLVThd="90" condition="LE"></Scene>
+    <Scene name="BEACH" inConfThd="950" outConfThd="700" inLVThd="110" outLVThd="90" condition="GE"></Scene>
+    <Scene name="BLUESKY" inConfThd="950" outConfThd="700" inLVThd="110" outLVThd="90" condition="GE"></Scene>
+    <Scene name="SUNSET" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="FOOD" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="FLOWER" inConfThd="950" outConfThd="700" inLVThd="10" outLVThd="0" condition="GE"></Scene>
+    <Scene name="GREENPLANT" inConfThd="950" outConfThd="500" inLVThd="10" outLVThd="0" condition="GE"></Scene>
+    <Scene name="SNOW" inConfThd="950" outConfThd="700" inLVThd="70" outLVThd="60" condition="GE"></Scene>
+    <Scene name="NIGHT" inConfThd="950" outConfThd="700" inLVThd="80" outLVThd="90" condition="LE"></Scene>
+    <Scene name="TEXT" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="CAT" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="DOG" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="FIREWORKS" inConfThd="950" outConfThd="700" inLVThd="80" outLVThd="90" condition="LE"></Scene>
+    <Scene name="OVERCAST" inConfThd="950" outConfThd="700" inLVThd="110" outLVThd="90" condition="GE"></Scene>
+    <Scene name="FALLEN" inConfThd="950" outConfThd="700" inLVThd="10" outLVThd="0" condition="GE"></Scene>
+    <Scene name="PANDA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="CAR" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="OLDBUILDINGS" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="BICYCLE" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="WATERFALL" inConfThd="950" outConfThd="700" inLVThd="70" outLVThd="60" condition="GE"></Scene>
+    <Scene name="NIGHTWITHSKY" inConfThd="0" outConfThd="0" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="NIGHTNOSKY" inConfThd="0" outConfThd="0" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+  </FilterRule1.0>
+  <FilterRule2.0>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+    <Scene name="AAA" inConfThd="950" outConfThd="700" inLVThd="0" outLVThd="0" condition="NULL"></Scene>
+  </FilterRule2.0>
+</SceneRecognitionConfig>

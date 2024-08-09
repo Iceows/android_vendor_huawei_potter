@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OfflineAlgo>
+  <PPAlgo name="BigApertureAlgo" multi_instance="1" instance_max="10" switcher="1" />
+  <PPAlgo name="fairlight" multi_instance="1" instance_max="10" switcher="1" />
+  <PPAlgo name="filterAlgo" multi_instance="0" instance_max="1" switcher="1" />
+  <PPAlgo name="panoramaBeauty" multi_instance="1" instance_max="10" switcher="1">
+    <FaceDetectAlgo>1</FaceDetectAlgo>
+    <BeautyAlgo>1</BeautyAlgo>
+  </PPAlgo>
+</OfflineAlgo>

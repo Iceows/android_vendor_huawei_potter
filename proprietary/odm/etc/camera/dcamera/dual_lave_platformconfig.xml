@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Global>
+    <HDCCalibW>1600</HDCCalibW>
+    <HDCCalibH>1200</HDCCalibH>
+  </Global>
+  <AlgorithmPreprocessInfo>
+    <distortionAlg enable="1">
+      <brownEnable>1</brownEnable>
+      <bsplineEnable>1</bsplineEnable>
+    </distortionAlg>
+    <OTPRectifyEnable>1</OTPRectifyEnable>
+    <selfLearnAlg enable="1"></selfLearnAlg>
+    <brightnessColorAdjustEnable>1</brightnessColorAdjustEnable>
+    <brightnessGrayAdajustEnable>1</brightnessGrayAdajustEnable>
+    <onlineDistortionEnable>0</onlineDistortionEnable>
+    <multipleOf8Enable>0</multipleOf8Enable>
+  </AlgorithmPreprocessInfo>
+  <AlgorithmDCInfo>
+    <portraitSegmentAlg enable="0">
+      <modelWidth>410</modelWidth>
+      <modelHeight>410</modelHeight>
+      <modelPath>/vendor/etc/camera/cnnmodel/dualcamera/DualCamera_BC_PortraitSeg.cambricon</modelPath>
+    </portraitSegmentAlg>
+    <sparseDispAlg enable="1">
+      <DCEAlg enable="1">
+        <baseConfig>
+          <ratio>2</ratio>
+          <lrcheckEnable>0</lrcheckEnable>
+        </baseConfig>
+        <externConfig enable="0">
+          <lrcheckEnable>0</lrcheckEnable>
+        </externConfig>
+      </DCEAlg>
+      <DMAPAlg enable="0">
+        <dmapVersion>2</dmapVersion>
+        <baseConfig>
+          <lrcheckEnable>1</lrcheckEnable>
+        </baseConfig>
+        <externConfig enable="1">
+          <lrcheckEnable>0</lrcheckEnable>
+        </externConfig>
+      </DMAPAlg>
+      <sparseOptAlg>
+        <occOptEnable>1</occOptEnable>
+        <connectFillEnable>0</connectFillEnable>
+        <blackFillEnable>1</blackFillEnable>
+        <skyOptEnable>1</skyOptEnable>
+        <subPixelsEnable>0</subPixelsEnable>
+        <portraitMaskOptInterEnable>1</portraitMaskOptInterEnable>
+        <portraitMaskOptOuterEnable>0</portraitMaskOptOuterEnable>
+      </sparseOptAlg>
+    </sparseDispAlg>
+    <denseDispAlg>
+      <opticalFlowAlg>
+        <ratio>1</ratio>
+        <occEnable>1</occEnable>
+        <headOptInterEnable>1</headOptInterEnable>
+        <headOptOuterEnable>0</headOptOuterEnable>
+      </opticalFlowAlg>
+      <denseOptAlg>
+        <fingerEnable>1</fingerEnable>
+        <deburrEnable>0</deburrEnable>
+        <portraitPlaneEnable>1</portraitPlaneEnable>
+        <cropAdaptEnable>1</cropAdaptEnable>
+      </denseOptAlg>
+    </denseDispAlg>
+  </AlgorithmDCInfo>
+  <AlgorithmRFInfo>
+    <frontFilterEnable>1</frontFilterEnable>
+    <edgeFilterEnable>1</edgeFilterEnable>
+    <blurEnhanceRatio>1.0</blurEnhanceRatio>
+    <dofEnhanceRatio>1.3</dofEnhanceRatio>
+    <spotTh>220</spotTh>
+    <spotBrightnessEnhanceRatio>1.0</spotBrightnessEnhanceRatio>
+    <errorSpotOptEnable>0</errorSpotOptEnable>
+    <portraitBlurEnhanceRatio>1.0</portraitBlurEnhanceRatio>
+    <spotEnhanceEnable>0</spotEnhanceEnable>
+    <lowLightConnectAreaThRatio>70</lowLightConnectAreaThRatio>
+    <outSideCircleConnectAreaThRatio>20</outSideCircleConnectAreaThRatio>
+    <outSideOtherConnectAreaThRatio>40</outSideOtherConnectAreaThRatio>
+    <srcWeightSwirlAndDiscsRatio>5</srcWeightSwirlAndDiscsRatio>
+    <srcWeightHeartRatio>3</srcWeightHeartRatio>
+    <portraitAutoAdjustFocusPointEnable>0</portraitAutoAdjustFocusPointEnable>
+    <noiseUniformEnable>0</noiseUniformEnable>
+    <noiseUniformStrength>3</noiseUniformStrength>
+    <noiseUniformIsoTh>10</noiseUniformIsoTh>
+  </AlgorithmRFInfo>
+  <ExternConfig>
+    <packDispRefMatImg>0</packDispRefMatImg>
+  </ExternConfig>
+</Config>
