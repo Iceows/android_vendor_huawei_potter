@@ -608,6 +608,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
     vendor/huawei/potter/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
     vendor/huawei/potter/proprietary/odm/ta/sign_tool_product_ta.sec:$(TARGET_COPY_OUT_ODM)/ta/sign_tool_product_ta.sec \
+    vendor/huawei/potter/proprietary/vendor/etc/camera/watermark/dm.argb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/dm.argb \
+    vendor/huawei/potter/proprietary/vendor/etc/camera/watermark/dm.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/dm.png \
+    vendor/huawei/potter/proprietary/vendor/etc/camera/watermark/param.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/param.xml \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_al00_7645_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_al00_7645_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_al00_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_al00_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_al00a_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_al00a_hisi.ini \
