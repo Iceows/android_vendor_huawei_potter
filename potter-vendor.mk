@@ -613,11 +613,15 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/potter/proprietary/vendor/etc/camera/watermark/param.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark/param.xml \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_chicago_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_chicago_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_al00_7645_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_al00_7645_hisi.ini \
+    vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_al00_7645_hisi_nxp.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_al00_7645_hisi_nxp.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_al00_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_al00_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_al00a_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_al00a_hisi.ini \
+    vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx1_7646_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx1_7646_hisi.ini \
+    vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx1_7646_hisi_nxp.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx1_7646_hisi_nxp.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx1_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx1_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx1af_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx1af_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx1t_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx1t_hisi.ini \
+    vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx1t_hisi_nxp.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx1t_hisi_nxp.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx2j_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx2j_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_lx3_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_lx3_hisi.ini \
     vendor/huawei/potter/proprietary/vendor/etc/cfg_pot_tl00_hisi.ini:$(TARGET_COPY_OUT_VENDOR)/etc/cfg_pot_tl00_hisi.ini
